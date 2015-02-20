@@ -61,24 +61,25 @@ def ansChecker(trial):
 
 
 
+
+
 @get('/') # or @route('/login')
 def login():
-    return '''
-	<p>What is Entropy?</p>
-    <form action="/" method="post">
-        Answer: <input name="ans" type="text" />
-        <input value="Check" type="submit" />
-    </form>
-    '''
+	textarea = "Enter your answer here"
+	responses = ["Answer 1", "Answer 2", "Answer 3"]
+	scores = [0 , 0, 0]
+	style="display:none;"
+	return template('radio', style=style, textarea = textarea, responses = responses, scores = scores)
 @get('/jschannel1.js') # or @route('/login')
 def jsgetter():
 	return static_file("jschannel1.js",root='.')
 
 @post('/') # or @route('/login', method='POST')
 def do_login():
-    ans = request.forms.get('ans')
-    responses, scores=ansChecker(ans)
-    return template('radio', ans=responses, scores=scores)
+    textarea = request.forms.get('ans')
+    responses, scores=ansChecker(textarea)
+    style="display:block;"
+    return template('radio', style=style, textarea = textarea, responses=responses, scores=scores)
 
 srv = SSLWSGIRefServer(host="0.0.0.0", port=8090)
 run(server=srv)
