@@ -1,0 +1,28 @@
+2: Entropy is a measure of randomness, disorder. Substances tend to prefer higher entropy, more disordered states.
+2: Entropy is a measure of the disorder in a system.
+2: Entropy is a measure of disorder.
+2: Entropy is the amount of disorder in a system.
+1: Entropy is the disorder caused by a chemical reaction.
+0: Entropy is the change in energy due to heat gained and/or lost in a spontaneous chemical process.
+2: Entropy is a measure of the amount of chaos in something.
+2: Entropy is a measure of disorder or chaos. 
+2: Entropy is the chaos, randomness, lack of order in a system.
+1: Entropy is like the randomness of a reaction -- it describes how likely things are to react.
+1: Entropy is disorder.
+1: Entropy is a measure of thermodynamic stability.
+0: Entropy is related to the work done by the system.
+1: Entropy is related to the heat released by the system.
+0: Entropy is a measure of how fast a reaction goes.
+0: Entropy is the amount of energy in the system.
+1: Entropy is the tendency of systems to be in the most probable state.
+0: Entropy is a measure of the amount of energy in a system.
+1: Entropy will cause the heat death of the universe.
+1: Entropy tells us if a process is spontaneous or not.
+0: Entropy is order.
+2: Entropy is the quantity that should spontaneously increase over time in an isolated system (as per Second Law of Thermodyanmics).
+1: Entropy is the quantity that should spontaneously decrease over time in an isolated system (as per Second Law of Thermodyanmics).
+0: Entropy is a measure of the average particle kinetic energy in a system.
+0: Entropy is energy removed from a system per Kelvin.
+1: Entropy is a measure of the floppiness of a bond.
+1: The concept that disorder in a system will tend to increase and that this process is favorable.
+2: Entropy is a measure of irreversibility.

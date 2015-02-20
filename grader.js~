@@ -1,0 +1,33 @@
+var Grader = (function(document) {
+	var radio_value;
+
+	document.getElementById("ans_0").click(function () {
+		radio_value = 0; 		
+})
+	document.getElementById("ans_1").click(function () {
+		radio_value = 1; 		
+})	document.getElementById("ans_2").click(function () {
+		radio_value = 2; 		
+})
+
+   
+    function getGrade() {
+        return JSON.stringify({"Answer":radio_value});
+    }
+
+    function getState() {
+        return JSON.stringify(state);
+    }
+
+
+    function setState() {
+    }
+
+    return {
+        getState: getState,
+        setState: setState,
+        getGrade: getGrade
+    };
+})(document);
+
+
